@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 200%;
+}
+body{
+    background-color: rgb(150, 98, 71);
+}
+header {
+    display: flex;
+    background-color: rgb(68, 25, 0); 
+    width: 100%; 
+    height: 95px; 
+    display: flex; 
+    padding: 0%;
+}
+h1{
+    color: white
+}
+
+nav, h1{
+    display: flex;
+    align-items: center;
+    width:100%;
+    
+}
+
+.logo{
+    object-fit: cover;
+    position:absolute;
+    width: 200px;
+    top: 3px;
+    left: 100px;
+
+}
+.img_começo{
+    width: 100%;
+    height: 85vh;
+    object-fit: cover;
+}
