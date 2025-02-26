@@ -56,3 +56,49 @@ nav{
     height: 85vh;
     object-fit: cover;
 }
+
+Contatos
+.pessoa1{
+    margin: 25px;
+    padding: 20px;
+    background-color: rgb(219, 190, 171);
+    border-radius: 15px;
+}
+
+.pessoa2{
+    margin: 25px;
+    padding: 20px;
+    background-color: rgb(219, 190, 171);
+    border-radius: 15px;
+}
+
+.falenos{
+    background-color: rgb(219, 190, 171);
+    margin: 25px;
+    block-size: 100px;
+    width: 300px;
+    padding: 40px;
+    float: left;
+    border-radius: 15px;
+}
+
+form label, input, textarea{
+    padding: 4px;
+    background-color: rgb(238, 218, 205);
+}
+
+#Numero{
+    width: 230px;
+}
+#e-mail{
+    width: 238px;
+}
+
+.comentario{
+    background-color: rgb(219, 190, 171);
+    margin: 25px;
+    padding: 20px;
+    float: right;
+    width: 700px;
+    border-radius: 15px;
+}
