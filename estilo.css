@@ -87,23 +87,27 @@ nav{
     font-size: 50px;
     color: rgb(178,38,34);
 }
+
+
 CONTATO
 .pessoa1{
+    color: rgb(237, 237, 237);
     margin: 25px;
     padding: 20px;
-    background-color: rgb(219, 190, 171);
+    background-color: rgb(106,160,137);
     border-radius: 15px;
 }
 
 .pessoa2{
+    color: rgb(237, 237, 237);
     margin: 25px;
     padding: 20px;
-    background-color: rgb(219, 190, 171);
+    background-color: rgb(106,160,137);
     border-radius: 15px;
 }
 
 .falenos{
-    background-color: rgb(219, 190, 171);
+    background-color: rgb(106,160,137);
     margin: 25px;
     block-size: 100px;
     width: 300px;
@@ -113,8 +117,9 @@ CONTATO
 }
 
 form label, input, textarea{
+    color: rgb(178,38,34);
     padding: 4px;
-    background-color: rgb(238, 218, 205);
+    background-color: rgb(237, 237, 237);
 }
 
 #Numero{
@@ -125,7 +130,7 @@ form label, input, textarea{
 }
 
 .comentario{
-    background-color: rgb(219, 190, 171);
+    background-color: rgb(106,160,137);
     margin: 25px;
     padding: 20px;
     float: right;
@@ -133,9 +138,8 @@ form label, input, textarea{
     border-radius: 15px;
 }
 
+
 LIVROS
-
-
 .Livro{
     display: flex;
 }
