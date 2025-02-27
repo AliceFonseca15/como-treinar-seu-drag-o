@@ -95,7 +95,7 @@ CONTATO
     margin: 25px;
     padding: 20px;
     background-color: rgb(106,160,137);
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 .pessoa2{
@@ -103,39 +103,45 @@ CONTATO
     margin: 25px;
     padding: 20px;
     background-color: rgb(106,160,137);
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 .falenos{
     background-color: rgb(106,160,137);
-    margin: 25px;
+    margin: 60px 60px 60px 120px;
     block-size: 100px;
-    width: 300px;
-    padding: 40px;
+    width: 450px;
+    height: 150px;
+    padding: 35px;
     float: left;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 form label, input, textarea{
+    border: rgb(237, 237, 237) 1px solid;
     color: rgb(178,38,34);
-    padding: 4px;
+    padding: 10px;
     background-color: rgb(237, 237, 237);
+    border-radius: 20px;
 }
 
 #Numero{
-    width: 230px;
+    width: 365px;
 }
 #e-mail{
-    width: 238px;
+    width: 375px;
+}
+#text-area{
+    width: 900px;
 }
 
 .comentario{
     background-color: rgb(106,160,137);
-    margin: 25px;
-    padding: 20px;
+    margin: 60px 100px 60px 60px;
+    padding: 35px;
     float: right;
-    width: 700px;
-    border-radius: 15px;
+    width: 900px;
+    border-radius: 20px;
 }
 
 
