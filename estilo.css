@@ -20,16 +20,17 @@ header {
 }
 .container{
     position: relative;
-    width: 100%;
-    height: 100vh;
+    margin: 0%;
 }
 .container img{
     object-fit: cover; 
     display: block;
+    width: 100%;
+    height: 100vh;
 }
 .img_começo{
     width: 100%;         
-    height: 88%;        
+    height: 100%;        
     object-fit: cover;
     border-top: 10px;
     border-style: solid;
@@ -87,7 +88,20 @@ nav{
     font-size: 50px;
     color: rgb(178,38,34);
 }
+.bemvindo{
+    color: white;
+    margin: 0%;
+    border: 5px;
+    border-color: blueviolet;
+    border-style: solid;
+    width: 100%;
+    display: block;
+}
 
+.berk{
+    position: relative;
+    left: 100px;
+}
 
 CONTATO
 .pessoa1{
