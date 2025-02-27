@@ -8,40 +8,63 @@ html, body {
     height: 200%;
 }
 body{
-    background-color: rgb(150, 98, 71);
+    background-color: rgb(41, 57, 60);
 }
 header {
     display: flex;
-    background-color: rgb(68, 25, 0); 
+    background-color: rgb(41, 57, 60); 
     width: 100%; 
-    height: 95px; 
+    height: 70px; 
     padding: 0;
+    justify-content: center;
 }
-
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.container img{
+    object-fit: cover; 
+    display: block;
+}
+.img_começo{
+    width: 100%;         
+    height: 88%;        
+    object-fit: cover;
+    border-top: 10px;
+    border-style: solid;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: rgb(106,160,137);
+}
 
 nav{
     display: flex;
     align-items: center;
-    width: 80%;
-    
+    width: 100%;
+    flex-grow: 1;
+    justify-content: center;
 }
 
 .logo{
     object-fit: cover;
     position:absolute;
-    width: 200px;
+    width: 70px;
     top: 3px;
-    left: 100px;
+    left: 50px;
 
 }
 .menu {
     display: flex;
     list-style: none;
-    gap: 30px;
+    gap: 150px;
+    
 }
 
 .menu li {
     display: inline;
+    width: 80px;
 }
 
 .menu a {
@@ -50,13 +73,20 @@ nav{
     font-size: 18px;
     font-weight: bold;
 }
-
-.img_começo {
-    width: 100%;
-    height: 85vh;
-    object-fit: cover;
+.texto{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 40%;
 }
-
+.HTYD{
+    font-size: 20px;
+    color: white;
+}
+.htyd1{
+    font-size: 50px;
+    color: rgb(178,38,34);
+}
 CONTATO
 .pessoa1{
     margin: 25px;
@@ -105,7 +135,7 @@ form label, input, textarea{
 
 LIVROS
 body{
-    background-color: 966247;
+    background-color: rgb(41, 57, 60);
 }
 
 .livro a{
