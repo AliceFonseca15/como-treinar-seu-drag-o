@@ -134,28 +134,33 @@ form label, input, textarea{
 }
 
 LIVROS
-body{
-    background-color: rgb(41, 57, 60);
-}
 
-.livro a{
-    display: inline-block;
-    margin: 20px;
+
+.Livro{
+    display: flex;
 }
 
 .img_livro{
-    height: 65%;
+    float: left;
+    height: 400px;
+    width: auto;
+    margin: 50px;
 }
 
-.informação{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-color: rgb(255, 255, 255, 0.7);
-    box-sizing: border-box;
+#info1{
     display: none;
+    height: 165px;
+    position: absolute;
+    top: 448px;
+    left: 184px;
+    transform: translate(-50%, -50%);
+    background-color: rgb(237, 237, 237, 0.4);
+    color: rgb(41, 57, 60);
+    padding: 14px;
+    text-align: center;
+    font-size: 16px;
 }
 
-main a:hover .informação{
+#img1:hover #info1{
     display: block;
 }
