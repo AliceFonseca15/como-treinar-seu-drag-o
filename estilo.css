@@ -18,6 +18,7 @@ header {
     padding: 0;
     justify-content: center;
 }
+/*INICIO*/
 .container{
     position: relative;
     margin: 0%;
@@ -95,15 +96,26 @@ nav{
     border-color: blueviolet;
     border-style: solid;
     width: 100%;
-    display: block;
+    display: flex;
+    position: relative;
 }
 
 .berk{
     position: relative;
-    left: 100px;
+    left: 50%;
+
+}
+.titulo{
+    position: relative;
+    right: 800px;
+}
+.p1{
+    position: relative;
+    right: 780px;
+    top: 70px;
 }
 
-CONTATO
+/*CONTATO*/
 .pessoa1{
     color: rgb(237, 237, 237);
     margin: 25px;
@@ -159,7 +171,7 @@ form label, input, textarea{
 }
 
 
-LIVROS
+/*LIVROS*/
 .Livro{
     display: flex;
 }
