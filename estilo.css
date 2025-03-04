@@ -41,7 +41,7 @@ header {
     border-color: rgb(106,160,137);
 }
 
-nav{
+.navini{
     display: flex;
     align-items: center;
     width: 100%;
@@ -187,7 +187,7 @@ form label, input, textarea{
     display: none;
     height: 165px;
     position: absolute;
-    top: 448px;
+    top: 719px;
     left: 184px;
     transform: translate(-50%, -50%);
     background-color: rgb(237, 237, 237, 0.4);
@@ -199,4 +199,13 @@ form label, input, textarea{
 
 #img1:hover #info1{
     display: block;
+}
+
+#livropara{
+    color: rgb(237, 237, 237);
+    margin: 30px;
+}
+
+#paraesquerda{
+    text-align: right;
 }
