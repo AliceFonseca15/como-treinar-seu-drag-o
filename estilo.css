@@ -172,10 +172,6 @@ form label, input, textarea{
 
 
 /*LIVROS*/
-.Livro{
-    display: flex;
-}
-
 .img_livro{
     float: left;
     height: 400px;
@@ -183,12 +179,11 @@ form label, input, textarea{
     margin: 50px;
 }
 
-#info1{
+.infolivro{
     display: none;
     height: 165px;
+    width: 240px;
     position: absolute;
-    top: 719px;
-    left: 184px;
     transform: translate(-50%, -50%);
     background-color: rgb(237, 237, 237, 0.4);
     color: rgb(41, 57, 60);
@@ -197,7 +192,90 @@ form label, input, textarea{
     font-size: 16px;
 }
 
+#info1{
+    top: 719px;
+    left: 184px;
+}
+#info2{
+    top: 719px;
+    left: 553px;
+}
+#info3{
+    top: 719px;
+    left: 920px;
+}
+#info4{
+    top: 719px;
+    left: 1288px;
+}
+#info5{
+    top: 1219px;
+    left: 184px;
+}
+#info6{
+    top: 1219px;
+    left: 553px;
+}
+#info7{
+    top: 1219px;
+    left: 920px;
+}
+#info8{
+    top: 1219px;
+    left: 1288px;
+}
+#info9{
+    top: 1719px;
+    left: 184px;
+}
+#info10{
+    top: 1719px;
+    left: 553px;
+}
+#info11{
+    top: 1719px;
+    left: 920px;
+}
+#info12{
+    top: 1719px;
+    left: 1288px;
+}
+
+
 #img1:hover #info1{
+    display: block;
+}
+#img2:hover #info2{
+    display: block;
+}
+#img3:hover #info3{
+    display: block;
+}
+#img4:hover #info4{
+    display: block;
+}
+#img5:hover #info5{
+    display: block;
+}
+#img6:hover #info6{
+    display: block;
+}
+#img7:hover #info7{
+    display: block;
+}
+#img8:hover #info8{
+    display: block;
+}
+#img9:hover #info9{
+    display: block;
+}
+#img10:hover #info10{
+    display: block;
+}
+#img11:hover #info11{
+    display: block;
+}
+#img12:hover #info12{
     display: block;
 }
 
