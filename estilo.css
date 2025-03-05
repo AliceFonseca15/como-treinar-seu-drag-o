@@ -174,15 +174,15 @@ form label, input, textarea{
 /*LIVROS*/
 .img_livro{
     float: left;
-    height: 400px;
+    height: 380px;
     width: auto;
-    margin: 50px;
+    margin: 70px 20px 0px 70px;
 }
 
 .infolivro{
     display: none;
-    height: 165px;
-    width: 240px;
+    height: 160px;
+    width: 227px;
     position: absolute;
     transform: translate(-50%, -50%);
     background-color: rgb(237, 237, 237, 0.4);
@@ -196,57 +196,57 @@ form label, input, textarea{
     background-color: rgb(106,160,137);
     border-radius: 20px;
     padding: 15px;
+    margin: 8px;
 }
 
 #info1{
-    top: 780px;
-    left: 184px;
+    top: 766px;
+    left: 198px;
 }
 #info2{
-    top: 780px;
-    left: 553px;
+    top: 766px;
+    left: 542px;
 }
 #info3{
-    top: 780px;
-    left: 920px;
+    top: 766px;
+    left: 886px;
 }
 #info4{
-    top: 780px;
-    left: 1288px;
+    top: 766px;
+    left: 1231px;
 }
 #info5{
-    top: 1280px;
-    left: 184px;
+    top: 1216px;
+    left: 198px;
 }
 #info6{
-    top: 1280px;
-    left: 553px;
+    top: 1216px;
+    left: 542px;
 }
 #info7{
-    top: 1280px;
-    left: 920px;
+    top: 1216px;
+    left: 886px;
 }
 #info8{
-    top: 1280px;
-    left: 1288px;
+    top: 1216px;
+    left: 1231px;
 }
 #info9{
-    top: 1780px;
-    left: 184px;
+    top: 1666px;
+    left: 198px;
 }
 #info10{
-    top: 1780px;
-    left: 553px;
+    top: 1666px;
+    left: 542px;
 }
 #info11{
-    top: 1780px;
-    left: 920px;
+    top: 1666px;
+    left: 886px;
 }
 #info12{
-    top: 1780px;
-    left: 1288px;
+    top: 1666px;
+    left: 1231px;
 }
-
 
 #img1:hover #info1{
     display: block;
@@ -287,7 +287,7 @@ form label, input, textarea{
 
 #livropara{
     color: rgb(237, 237, 237);
-    margin: 30px;
+    margin: 10px 60px 10px 60px;
 }
 
 #paraesquerda{
