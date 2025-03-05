@@ -316,28 +316,24 @@ header {
 }
 
 /*CONTATO*/
-.pessoa1{
+.pessoa{
     color: rgb(237, 237, 237);
-    margin: 25px;
+    margin: 60px;
     padding: 20px;
     background-color: rgb(106,160,137);
     border-radius: 20px;
 }
 
-.pessoa2{
-    color: rgb(237, 237, 237);
-    margin: 25px;
-    padding: 20px;
-    background-color: rgb(106,160,137);
-    border-radius: 20px;
+#interativo{
+    display: flex;
 }
 
 .falenos{
     background-color: rgb(106,160,137);
     margin: 50px 50px 0px 80px;
     block-size: 100px;
-    width: 370px;
-    height: 145px;
+    width: 350px;
+    height: 165px;
     padding: 28px;
     float: left;
     border-radius: 20px;
@@ -352,21 +348,21 @@ form label, input, textarea{
 }
 
 #Numero{
-    width: 285px;
+    width: 265px;
 }
 #e-mail{
-    width: 295px;
+    width: 275px;
 }
 #text-area{
-    width: 780px;
+    width: 735px;
 }
 
 .comentario{
     background-color: rgb(106,160,137);
-    margin: 60px 100px 60px 60px;
+    margin: 50px 50px 60px 60px;
     padding: 35px;
     float: right;
-    width: 780px;
+    width: 735px;
     border-radius: 20px;
 }
 
@@ -399,51 +395,51 @@ form label, input, textarea{
 }
 
 #info1{
-    top: 766px;
-    left: 198px;
+    top: 776px;
+    left: 197px;
 }
 #info2{
-    top: 766px;
+    top: 776px;
     left: 542px;
 }
 #info3{
-    top: 766px;
+    top: 776px;
     left: 886px;
 }
 #info4{
-    top: 766px;
+    top: 776px;
     left: 1231px;
 }
 #info5{
-    top: 1216px;
-    left: 198px;
+    top: 1226px;
+    left: 197px;
 }
 #info6{
-    top: 1216px;
+    top: 1226px;
     left: 542px;
 }
 #info7{
-    top: 1216px;
+    top: 1226px;
     left: 886px;
 }
 #info8{
-    top: 1216px;
+    top: 1226px;
     left: 1231px;
 }
 #info9{
-    top: 1666px;
-    left: 198px;
+    top: 1676px;
+    left: 197px;
 }
 #info10{
-    top: 1666px;
+    top: 1676px;
     left: 542px;
 }
 #info11{
-    top: 1666px;
+    top: 1676px;
     left: 886px;
 }
 #info12{
-    top: 1666px;
+    top: 1676px;
     left: 1231px;
 }
 
