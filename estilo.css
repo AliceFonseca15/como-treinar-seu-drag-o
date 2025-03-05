@@ -192,52 +192,58 @@ form label, input, textarea{
     font-size: 16px;
 }
 
+#livropara h3{
+    background-color: rgb(106,160,137);
+    border-radius: 20px;
+    padding: 15px;
+}
+
 #info1{
-    top: 719px;
+    top: 780px;
     left: 184px;
 }
 #info2{
-    top: 719px;
+    top: 780px;
     left: 553px;
 }
 #info3{
-    top: 719px;
+    top: 780px;
     left: 920px;
 }
 #info4{
-    top: 719px;
+    top: 780px;
     left: 1288px;
 }
 #info5{
-    top: 1219px;
+    top: 1280px;
     left: 184px;
 }
 #info6{
-    top: 1219px;
+    top: 1280px;
     left: 553px;
 }
 #info7{
-    top: 1219px;
+    top: 1280px;
     left: 920px;
 }
 #info8{
-    top: 1219px;
+    top: 1280px;
     left: 1288px;
 }
 #info9{
-    top: 1719px;
+    top: 1780px;
     left: 184px;
 }
 #info10{
-    top: 1719px;
+    top: 1780px;
     left: 553px;
 }
 #info11{
-    top: 1719px;
+    top: 1780px;
     left: 920px;
 }
 #info12{
-    top: 1719px;
+    top: 1780px;
     left: 1288px;
 }
 
