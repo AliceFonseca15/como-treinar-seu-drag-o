@@ -33,7 +33,7 @@ header {
     object-fit: cover; 
     display: block;
     width: 100%;
-    height: 100vh;
+    height: 88vh;
 }
 .img_começo{
     width: 100%;         
@@ -93,27 +93,79 @@ header {
 .bemvindo{
     color: white;
     margin: 0%;
-    border: 5px;
-    border-color: blueviolet;
-    border-style: solid;
     width: 100%;
     display: flex;
-    position: relative;
+    align-items: center;
+    justify-content: space-between;
 }
-
+.texto-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    
+}
 .berk{
     position: relative;
+    width: 50%;
     left: 50%;
 
 }
-.titulo{
+.titulo1{
     position: relative;
-    right: 800px;
+    right: 105vh;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    
+    
 }
 .p1{
     position: relative;
     right: 780px;
-    top: 70px;
+    top: 5px;
+    margin-left: 170px;
+    margin-top: 5px;
+    
+}
+.amizade-coragem{
+    color: white;
+    margin: 0%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.texto2-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+.amizade{
+    position: relative;
+    width: 50%;
+    
+}
+.titulo2{
+    font-size: 20px;
+    margin-right: 300px;
+    margin-bottom: 10px;
+
+}
+.p2{
+    text-align: left;
+    margin-top: 5px;
+    margin-left:100px ;
+    margin-right: 70px;
+}
+.titulo3{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
 }
 
 /*CONTATO*/
