@@ -134,11 +134,11 @@ header {
 
 .falenos{
     background-color: rgb(106,160,137);
-    margin: 60px 60px 60px 120px;
+    margin: 50px 50px 0px 80px;
     block-size: 100px;
-    width: 450px;
-    height: 150px;
-    padding: 35px;
+    width: 370px;
+    height: 145px;
+    padding: 28px;
     float: left;
     border-radius: 20px;
 }
@@ -152,13 +152,13 @@ form label, input, textarea{
 }
 
 #Numero{
-    width: 365px;
+    width: 285px;
 }
 #e-mail{
-    width: 375px;
+    width: 295px;
 }
 #text-area{
-    width: 900px;
+    width: 780px;
 }
 
 .comentario{
@@ -166,10 +166,9 @@ form label, input, textarea{
     margin: 60px 100px 60px 60px;
     padding: 35px;
     float: right;
-    width: 900px;
+    width: 780px;
     border-radius: 20px;
 }
-
 
 /*LIVROS*/
 .img_livro{
