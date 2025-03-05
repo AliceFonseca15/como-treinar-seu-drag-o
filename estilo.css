@@ -227,7 +227,6 @@ header {
 
 /* Hide the images by default */
 .mySlides {
-    display: none;
     align-items: center;
 }
 
@@ -304,6 +303,10 @@ header {
 /* Add a transparency effect for thumnbail images */
 .demo {
     opacity: 0.6;
+    width: 100%  !important;
+    height: 150px !important; 
+    gap: 0%;   
+    object-fit: cover;
 }
 
 .active,
