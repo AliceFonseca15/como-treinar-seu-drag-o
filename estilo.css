@@ -623,12 +623,15 @@ form label, input, textarea{
 /*RODAPE*/
 footer{
     padding: 5px;
-    color: black;
+    color: white;
     background-color: rgb(106,160,137);
+    margin-top: 20%;
+
 }
 footer a{
     color: black;
 }
 footer hr{
     border: 1px solid black;
+    width: 40%;
 }
