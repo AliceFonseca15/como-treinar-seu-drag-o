@@ -70,10 +70,13 @@ header {
     
 }
 
-.menu li {
+.menu li a {
     display: inline;
     width: 80px;
+    font-family: IrishFont;
+    font-size: 30px;
 }
+
 
 .menu a {
     text-decoration: none;
@@ -87,15 +90,15 @@ header {
     top: 50%;
     left: 40%;
 }
-.HTYD{
-    font-size: 20px;
+.HTYD h2{
+    font-size: 30px;
     color: white;
-
+    font-family: IrishFont;
 }
-.htyd1{
-    font-size: 50px;
+.htyd1 h1{
+    font-size: 100px;
     color: rgb(178,38,34);
-    
+    font-family: IrishFont;
 }
 .bemvindo{
     color: white;
@@ -105,6 +108,11 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+.bemvindo h1{
+    font-family: IrishFont;
+    font-size: 20px;
+}
+
 .texto-container{
     width: 50%;
     display: flex;
@@ -123,11 +131,14 @@ header {
     position: relative;
     right: 105vh;
     margin-bottom: 10px;
-    font-size: 20px;
     margin-left: 40px;
     margin-bottom: 10px;
+    font-size: 30px;
     
-    
+}
+.titulo1 h1{
+    font-family: IrishFont;
+   
 }
 .p1{
     position: relative;
@@ -135,6 +146,7 @@ header {
     top: 5px;
     margin-left: 170px;
     margin-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
 .amizade-coragem{
@@ -159,21 +171,24 @@ header {
 }
 .titulo2{
     font-size: 20px;
-    margin-right: 300px;
+    margin-right: 280px;
     margin-bottom: 10px;
-
+    font-family: IrishFont;
+    white-space: nowrap;
 }
 .p2{
     text-align: left;
     margin-top: 5px;
     margin-left:100px ;
     margin-right: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .titulo3 {
     color: white;
     text-align: center;
     margin-top: 100px;
     margin-bottom: 50px;
+    font-family: IrishFont;
 }
 
 .personagens {
@@ -214,14 +229,61 @@ header {
     color: white;            
     font-size: 16px;        
     font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*FILMES */
+.movie{
+    height: 10%;
+    width: 200px;  
+    margin-left:01px;
+}
+.franquia{
+    margin-bottom: 20px;
+    font-family: IrishFont;
+    font-size: 40px;
+}
+.movie-texto{
+    flex-direction: column;
+    color: white;
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 100px;
+   
+}
+.filme1{
+    color: white;
+    display: flex;
+    margin-top: 100px;
+}
+.t1, .movie-p1{
+    flex-direction: column;
+    text-align: left;
+    margin-left: 50%;
+    width: 100%;
+    border-radius: 4px;
+    padding: 20px;
 }
 
+.movie-p1{
+    background-color: rgb(106,160,137);
+    margin-left: 50px;
+
+}
+.t1{
+    margin-left:100px;
+    
+}
 /*GALERIA */ 
 .galeria-imagens{
     text-align: center;
     color: white;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: IrishFont;
+
 }
 * {
     box-sizing: border-box;
@@ -551,4 +613,4 @@ form label, input, textarea{
     background-image: url(imagens/HTTYD_\(book_info_12\).png);
     background-size: cover;
 }
-}
+
