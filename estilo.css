@@ -416,54 +416,43 @@ header {
 }
 
 #carol{
+    background-color: rgb(106,160,137);
+    border: 8px solid rgb(106,160,137);
+    border-radius: 20px;
     margin: 0px 30px 0px 0px;
     height: 300px;
     width: auto;
     float: right;
-    
 }
 
-#interativo{
+.contate-nos{
     display: flex;
-    clear: right;
-}
-
-.falenos{
-    background-color: rgb(106,160,137);
-    margin: 50px 50px 0px 80px;
-    block-size: 100px;
-    width: 350px;
-    height: 165px;
-    padding: 28px;
-    float: left;
-    border-radius: 20px;
-}
-
-form label, input, textarea{
-    border: rgb(237, 237, 237) 1px solid;
-    color: rgb(178,38,34);
-    padding: 10px;
+    justify-content: center;
     background-color: rgb(237, 237, 237);
+    border: solid rgb(106,160,137) 8px;
     border-radius: 20px;
+    padding: 24px;
+    margin: 35%;
+    margin-top: 20%;
+    margin-bottom: 10%;
 }
-
-#Numero{
-    width: 265px;
+#Nome{
+    border: solid rgb(237, 237, 237) 1px;
+    width: 84%;
 }
 #e-mail{
-    width: 275px;
+    border: solid rgb(237, 237, 237) 1px;
+    width: 83%;
 }
 #text-area{
-    width: 735px;
+    border: solid rgb(106,160,137) 4px;
 }
-
-.comentario{
+form label, input, textarea{
+    background-color: rgb(237, 237, 237);
+}
+.contate-nos hr{
     background-color: rgb(106,160,137);
-    margin: 50px 50px 60px 60px;
-    padding: 35px;
-    float: right;
-    width: 735px;
-    border-radius: 20px;
+    height: 4px;
 }
 
 /*LIVROS*/
@@ -631,3 +620,15 @@ form label, input, textarea{
     background-size: cover;
 }
 
+/*RODAPE*/
+footer{
+    padding: 5px;
+    color: black;
+    background-color: rgb(106,160,137);
+}
+footer a{
+    color: black;
+}
+footer hr{
+    border: 1px solid black;
+}
