@@ -235,7 +235,8 @@ header {
 .movie{
     height: 10%;
     width: 200px;  
-    margin-left:01px;
+    margin-left: 150px;
+    margin-bottom: 100px;
 }
 .franquia{
     margin-bottom: 20px;
@@ -253,7 +254,7 @@ header {
     margin-top: 100px;
    
 }
-.filme1{
+.filme{
     color: white;
     display: flex;
     margin-top: 100px;
@@ -265,17 +266,33 @@ header {
     width: 100%;
     border-radius: 4px;
     padding: 20px;
+    
 }
 
 .movie-p1{
     background-color: rgb(106,160,137);
     margin-left: 50px;
-
+    justify-content: center;
+    align-items: center;
+    display: block;
+    display: flex;
 }
+
 .t1{
     margin-left:100px;
-    
+    font-family: IrishFont;
+    font-size: 25px;
 }
+
+.t2, .movie-p2{
+    flex-direction: column;
+    text-align: left;
+    margin-left: 50%;
+    width: 100%;
+    border-radius: 4px;
+    padding: 20px;
+}
+
 /*GALERIA */ 
 .galeria-imagens{
     text-align: center;
