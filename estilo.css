@@ -596,6 +596,12 @@ form label, input, textarea{
     width: 254;
     margin: 70px 20px 0px 70px;
 }
+#img13{
+    float: left;
+    height: 400px;
+    width: 254;
+    margin: 100px;
+}
 
 #img1:hover{
     background-image: url(imagens/HTTYD_\(book_info_1\).png);
