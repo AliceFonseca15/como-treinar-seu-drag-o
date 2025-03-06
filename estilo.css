@@ -418,7 +418,7 @@ header {
     width: 750px;
     border-radius: 20px;
     padding: 20px;
-    margin: 70px;
+    margin: 60px;
     margin-top: 20%;
 }
 
@@ -441,6 +441,15 @@ header {
     float: right;
 }
 
+.nos{
+    clear: both;
+    display: flex;
+    justify-content: center;
+    font-family: IrishFont;
+    color: rgb(237, 237, 237);
+    margin-top: 20%;
+    margin-bottom: 0%;
+}
 .contate-nos{
     display: flex;
     justify-content: center;
@@ -449,7 +458,7 @@ header {
     border-radius: 20px;
     padding: 24px;
     margin: 35%;
-    margin-top: 20%;
+    margin-top: 20px;
     margin-bottom: 10%;
     width: 450px;
 }
