@@ -622,16 +622,15 @@ form label, input, textarea{
 
 /*RODAPE*/
 footer{
+    clear: both;
     padding: 5px;
-    color: white;
+    color: black;
     background-color: rgb(106,160,137);
-    margin-top: 20%;
-
+    margin-top: 30%;
 }
 footer a{
     color: black;
 }
 footer hr{
     border: 1px solid black;
-    width: 40%;
 }
