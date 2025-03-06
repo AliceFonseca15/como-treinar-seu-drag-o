@@ -388,32 +388,22 @@ form label, input, textarea{
 }
 
 /*LIVROS*/
-.img_livro{
-    float: left;
-    height: 380px;
-    width: auto;
-    margin: 70px 20px 0px 70px;
+#livropara{
+    color: rgb(237, 237, 237);
+    margin: 10px 60px 10px 60px;
 }
-
-.infolivro{
-    display: none;
-    height: 160px;
-    width: 227px;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    background-color: rgb(237, 237, 237, 0.4);
-    color: rgb(41, 57, 60);
-    padding: 14px;
-    text-align: center;
-    font-size: 16px;
-}
-
-#livropara h3{
+#livropara h1{
     font-family: IrishFont;
+}
+#livropara h4{
     background-color: rgb(106,160,137);
     border-radius: 20px;
     padding: 15px;
     margin: 8px;
+}
+#paraesquerda{
+    font-family: IrishFont;
+    text-align: right;
 }
 
 #img1{
@@ -424,100 +414,141 @@ form label, input, textarea{
     width: 254;
     margin: 70px 20px 0px 70px;
 }
-#info2{
-    top: 776px;
-    left: 542px;
-}
-#info3{
-    top: 776px;
-    left: 886px;
-}
-#info4{
-    top: 776px;
-    left: 1231px;
-}
-#info5{
-    top: 1226px;
-    left: 197px;
-}
-#info6{
-    top: 1226px;
-    left: 542px;
-}
-#info7{
-    top: 1226px;
-    left: 886px;
-}
-#info8{
-    top: 1226px;
-    left: 1231px;
-}
-#info9{
-    top: 1676px;
-    left: 197px;
-}
-#info10{
-    top: 1676px;
-    left: 542px;
-}
-#info11{
-    top: 1676px;
-    left: 886px;
-}
-#info12{
-    top: 1676px;
-    left: 1231px;
-}
-
-#img1:hover{
-    background-image: url(imagens/HTTYD_\(book_info_1\).png);
+#img2{
+    background-image: url(imagens/HTTYD_\(book_cover_2\).jpg);
     background-size: cover;
     float: left;
     height: 380px;
     width: 254;
     margin: 70px 20px 0px 70px;
 }
-#img2:hover #info2{
-    display: block;
+#img3{
+    background-image: url(imagens/HTTYD_\(book_cover_3\).jpg);
+    background-size: cover;
+    float: left;
+    height: 380px;
+    width: 254;
+    margin: 70px 20px 0px 70px;
 }
-#img3:hover #info3{
-    display: block;
+#img4{
+    background-image: url(imagens/HTTYD_\(book_cover_4\).jpg);
+    background-size: cover;
+    float: left;
+    height: 380px;
+    width: 254;
+    margin: 70px 20px 0px 70px;
 }
-#img4:hover #info4{
-    display: block;
+#img5{
+    background-image: url(imagens/HTTYD_\(book_cover_5\).jpg);
+    background-size: cover;
+    float: left;
+    height: 380px;
+    width: 254;
+    margin: 70px 20px 0px 70px;
 }
-#img5:hover #info5{
-    display: block;
+#img6{
+    background-image: url(imagens/HTTYD_\(book_cover_6\).jpg);
+    background-size: cover;
+    float: left;
+    height: 380px;
+    width: 254;
+    margin: 70px 20px 0px 70px;
 }
-#img6:hover #info6{
-    display: block;
+#img7{
+    background-image: url(imagens/HTTYD_\(book_cover_7\).jpg);
+    background-size: cover;
+    float: left;
+    height: 380px;
+    width: 254;
+    margin: 70px 20px 0px 70px;
 }
-#img7:hover #info7{
-    display: block;
+#img8{
+    background-image: url(imagens/HTTYD_\(book_cover_8\).jpg);
+    background-size: cover;
+    float: left;
+    height: 380px;
+    width: 254;
+    margin: 70px 20px 0px 70px;
 }
-#img8:hover #info8{
-    display: block;
+#img9{
+    background-image: url(imagens/HTTYD_\(book_cover_9\).jpg);
+    background-size: cover;
+    float: left;
+    height: 380px;
+    width: 254;
+    margin: 70px 20px 0px 70px;
 }
-#img9:hover #info9{
-    display: block;
+#img10{
+    background-image: url(imagens/HTTYD_\(book_cover_10\).jpg);
+    background-size: cover;
+    float: left;
+    height: 380px;
+    width: 254;
+    margin: 70px 20px 0px 70px;
 }
-#img10:hover #info10{
-    display: block;
+#img11{
+    background-image: url(imagens/HTTYD_\(book_cover_11\).jpg);
+    background-size: cover;
+    float: left;
+    height: 380px;
+    width: 254;
+    margin: 70px 20px 0px 70px;
 }
-#img11:hover #info11{
-    display: block;
-}
-#img12:hover #info12{
-    display: block;
+#img12{
+    background-image: url(imagens/HTTYD_\(book_cover_12\).jpg);
+    background-size: cover;
+    float: left;
+    height: 380px;
+    width: 254;
+    margin: 70px 20px 0px 70px;
 }
 
-#livropara{
-    font-family: IrishFont;
-    color: rgb(237, 237, 237);
-    margin: 10px 60px 10px 60px;
+#img1:hover{
+    background-image: url(imagens/HTTYD_\(book_info_1\).png);
+    background-size: cover;
 }
-
-#paraesquerda{
-    font-family: IrishFont;
-    text-align: right;
+#img2:hover{
+    background-image: url(imagens/HTTYD_\(book_info_2\).png);
+    background-size: cover;
+}
+#img3:hover{
+    background-image: url(imagens/HTTYD_\(book_info_3\).png);
+    background-size: cover;
+}
+#img4:hover{
+    background-image: url(imagens/HTTYD_\(book_info_4\).png);
+    background-size: cover;
+}
+#img5:hover{
+    background-image: url(imagens/HTTYD_\(book_info_5\).png);
+    background-size: cover;
+}
+#img6:hover{
+    background-image: url(imagens/HTTYD_\(book_info_6\).png);
+    background-size: cover;
+}
+#img7:hover{
+    background-image: url(imagens/HTTYD_\(book_info_7\).png);
+    background-size: cover;
+}
+#img8:hover{
+    background-image: url(imagens/HTTYD_\(book_info_8\).png);
+    background-size: cover;
+}
+#img9:hover{
+    background-image: url(imagens/HTTYD_\(book_info_9\).png);
+    background-size: cover;
+}
+#img10:hover{
+    background-image: url(imagens/HTTYD_\(book_info_10\).png);
+    background-size: cover;
+}
+#img11:hover{
+    background-image: url(imagens/HTTYD_\(book_info_11\).png);
+    background-size: cover;
+}
+#img12:hover{
+    background-image: url(imagens/HTTYD_\(book_info_12\).png);
+    background-size: cover;
+}
 }
