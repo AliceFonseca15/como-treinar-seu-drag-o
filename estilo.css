@@ -619,6 +619,13 @@ form label, input, textarea{
     background-image: url(imagens/HTTYD_\(book_info_12\).png);
     background-size: cover;
 }
+#img13{
+    background-color: rgb(41, 57, 60);
+    float: left;
+    height: 240px;
+    width: 254;
+    margin: 70px 20px 0px 70px;
+}
 
 /*RODAPE*/
 footer{
