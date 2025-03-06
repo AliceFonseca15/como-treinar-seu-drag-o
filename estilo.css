@@ -1,6 +1,14 @@
+@font-face {
+    font-family: IrishFont;
+    src: url(IrishGrover-Regular.ttf);
+}
 * {
     margin: 0;
     padding: 0;
+}
+
+h1 h2 h3 h4 h5{
+    font-family: IrishFont;
 }
 
 html, body {
@@ -24,6 +32,7 @@ header {
     border-right: 0px;
     border-color: rgb(106,160,137);
 }
+
 /*INICIO*/
 .container{
     position: relative;
@@ -208,6 +217,7 @@ header {
     font-size: 16px;        
     font-weight: bold;
 }
+
 /*GALERIA */ 
 .galeria-imagens{
     text-align: center;
@@ -315,16 +325,30 @@ header {
 }
 
 /*CONTATO*/
-.pessoa{
-    color: rgb(237, 237, 237);
-    margin: 60px;
-    padding: 20px;
+.pessoa{ 
+    margin: 90px 90px 90px 90px;
+}
+
+#backpessoal{
     background-color: rgb(106,160,137);
+    color: rgb(237, 237, 237);
+    width: 900px;
     border-radius: 20px;
+    padding: 20px;
+    margin: 50px;
+}
+
+#carol{
+    margin: 0px 30px 0px 0px;
+    height: 300px;
+    width: auto;
+    float: right;
+    
 }
 
 #interativo{
     display: flex;
+    clear: right;
 }
 
 .falenos{
@@ -387,15 +411,20 @@ form label, input, textarea{
 }
 
 #livropara h3{
+    font-family: IrishFont;
     background-color: rgb(106,160,137);
     border-radius: 20px;
     padding: 15px;
     margin: 8px;
 }
 
-#info1{
-    top: 776px;
-    left: 197px;
+#img1{
+    background-image: url(imagens/HTTYD_\(book_cover_1\).jpg);
+    background-size: cover;
+    float: left;
+    height: 380px;
+    width: 254;
+    margin: 70px 20px 0px 70px;
 }
 #info2{
     top: 776px;
@@ -442,8 +471,13 @@ form label, input, textarea{
     left: 1231px;
 }
 
-#img1:hover #info1{
-    display: block;
+#img1:hover{
+    background-image: url(imagens/HTTYD_\(book_info_1\).png);
+    background-size: cover;
+    float: left;
+    height: 380px;
+    width: 254;
+    margin: 70px 20px 0px 70px;
 }
 #img2:hover #info2{
     display: block;
@@ -480,10 +514,12 @@ form label, input, textarea{
 }
 
 #livropara{
+    font-family: IrishFont;
     color: rgb(237, 237, 237);
     margin: 10px 60px 10px 60px;
 }
 
 #paraesquerda{
+    font-family: IrishFont;
     text-align: right;
 }
